@@ -13,6 +13,7 @@ const aCar = {
         model: "Corolla",
         cc: 1.8
     },
+    features : ['Parking assist', 'Alarm', 'Tow-bar'],
     registration : {
         year: 201,
         county: "WD",
@@ -34,5 +35,10 @@ console.log("Reg = " + aCar.registration.year + "-" + aCar.registration.county +
 console.log("It is a " + aCar.color.exterior + " car, " 
 + aCar.mileage + " mileage, with " 
 + aCar.color.interior.texture + " interior.")
-console.log('First owner : ' + aCar.previous_owners[0] )
 console.log("First Owner: " + aCar.previous_owners[0].name + " - " + aCar.previous_owners[0].address)
+for( let i = 0; i < aCar.features.length; i += 1){
+    console.log(aCar.features[i]);
+}
+for(let j = 0; j < aCar.previous_owners.length; j += 1){
+    console.log(aCar.previous_owners[j].name);
+}
