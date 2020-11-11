@@ -5,7 +5,7 @@ import CourseModulesEmbeddedVars from "../components/exercises/02_embeddedVariab
 import CourseModulesWithProps from "../components/exercises/03_props";
 import CourseModulesCollections from "../components/exercises/04_iteration";
 
-const name = "HDip Computer Science";
+const name = "BSc in the Internet of Things";
 const modules = [
   {
     name: "DevOps",
@@ -13,17 +13,17 @@ const modules = [
     noPracticals: 2
   },
   {
-    name: "Enterprise Web Dev",
+    name: "Web App Dev 2",
     noLectures: 2,
     noPracticals: 3
   },
   {
-    name: "Programming",
+    name: "NoSQL Databases",
     noLectures: 2,
     noPracticals: 2
   },
   {
-    name: "Computer Systems",
+    name: "Embedded Systems Scripting",
     noLectures: 2,
     noPracticals: 3
   }
